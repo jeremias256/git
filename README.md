@@ -1,5 +1,5 @@
 
-###git help         : _
+###git help: _
 
 
 
@@ -26,3 +26,4 @@ git status: información del estado
 git add <name> : agrega un archivo en especifico
 git add . : agrega todo el directorio
 git reset <name> : quita un archivo del add
+git checkout -- . : restaura al ultimo commit
