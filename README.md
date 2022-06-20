@@ -16,7 +16,7 @@ git config --global -e :    Listar comandos  (a modifica / :wq! guardar y salir)
 git init --global init.defaultBranch <name>
 
 
-
+ 
 ### teclas:
 q : quit
 
