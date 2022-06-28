@@ -19,7 +19,7 @@ git init --global init.defaultBranch <name>
  
 ## teclas:
 q : quit
-
+a modifica / :wq! guardar y salir)
 
 
 ## status
