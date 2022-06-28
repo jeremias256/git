@@ -22,7 +22,15 @@ q : quit
 
 
 
+## status
+git status --short          Información resumida
+
+
+
 ## comunes 
+git log                     Información de los commits
+git log --online            Información de los commits resumido
+git log --online --decorate -all --graph
 git status                  Información del estado
 git add <name>              Agrega un archivo en especifico
 git add .                   Agrega todo el directorio
@@ -43,5 +51,17 @@ git branch -m master main:                     Cambia el nombre de la rama
 ## archivos
 .gitkeep            Para agregar seguimiento a carpetas vacías
 
+
+
+## alias
+git config --global alias.s "status --short"
+git config --global -e
+
+
+
+## utils
+git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
+=> git lg
 
 14-15-16-17
