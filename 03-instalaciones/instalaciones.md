@@ -1,4 +1,4 @@
-##Pasos para instalar
+## Pasos para instalar
 
 ```
 Prueba para git
