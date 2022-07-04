@@ -42,8 +42,14 @@ git add .                   Agrega todo el directorio
 git add *.html              Agrega todo lo que finaliza .html
 git commit -m "mensaje"     
 git commit -am "mensaje"    Agrega y commitea si ya sigue los archivos
+git commit --amend -m "mensaje" Actualiza el nombre del ultimo commit
 git reset "archivo.x"            Quita un archivo del add
 git checkout -- .           Restaura al ultimo commit
+
+git reset --soft HEAD^      No borra el archivo HEAD reemplaza el cod del commit
+                 HEAD^2
+          --mix
+          --hard            Borra el archivo
 ```
 
 
